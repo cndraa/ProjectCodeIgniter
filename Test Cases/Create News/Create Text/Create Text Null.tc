@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create title dengan panjang karakter Null</description>
+   <name>Create Text Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41a29f60-1daa-4d6f-b10b-08b41056f9ca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Text dengan panjang karakter 1</description>
+   <name>Create Text 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b791f00d-e2f7-4ae1-b0e8-46d0566f8ba5</testCaseGuid>
+</TestCaseEntity>

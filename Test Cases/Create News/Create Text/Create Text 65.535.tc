@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Text dengan panjang karakter 65.535</description>
+   <name>Create Text 65.535</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3516a30-b736-4433-9b6a-84c28e06697f</testCaseGuid>
+</TestCaseEntity>
