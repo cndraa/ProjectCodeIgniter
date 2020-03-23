@@ -20,13 +20,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/CodeIgniterCRUD/index.php/news/')
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/a_Delete_1'))
 
-WebElement Table = driver.findElement(By.xpath('(.//tbody//child::tr[2]//child::td)[1]'))
+delete = WebUI.getUrl()
 
-WebElement Table2 = driver.findElement(By.xpath('(.//tbody//child::tr[2]//child::td)[2]'))
-
-WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/a_view'))
-
-WebUI.closeBrowser()
+WebUI.verifyMatch(delete, 'http://[::1]/CodeIgniterCRUD/index.php/news', false)
 
