@@ -28,9 +28,5 @@ WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textar
 
 WebUI.click(findTestObject('Page_CodeIgniter Tutorial/input_Lorem Ipsum is simply dummy text_submit'))
 
-halamantujuan = WebUI.getUrl()
-
-WebUI.verifyMatch('halamantujuan', 'http://localhost/CodeIgniterCRUD/index.php/news/', false)
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Page_CodeIgniter Tutorial/p_The Text field is required'), 'The Text field is required.\n\n')
 

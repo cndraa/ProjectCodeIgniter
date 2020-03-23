@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Page_CodeIgniter Tutorial/input_Lorem Ipsum is simpl
 
 halamantujuan = WebUI.getUrl()
 
-WebUI.verifyMatch('halamantujuan', 'http://[::1]/CodeIgniterCRUD/index.php/news/edit/', false)
+WebUI.verifyMatch(halamantujuan, 'http://[::1]/CodeIgniterCRUD/index.php/news', false)
 
 WebUI.closeBrowser()
 

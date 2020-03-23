@@ -24,13 +24,7 @@ WebUI.click(findTestObject('Page_CodeIgniter Tutorial/a_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Title_title'), 'Didimus')
 
-WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Text_text'), 'T')
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Text_text'), 'C')
 
 WebUI.click(findTestObject('Page_CodeIgniter Tutorial/input_Lorem Ipsum is simply dummy text_submit'))
-
-halamantujuan = WebUI.getUrl()
-
-WebUI.verifyMatch('halamantujuan', 'http://localhost/CodeIgniterCRUD/index.php/news/', false)
-
-WebUI.closeBrowser()
 
